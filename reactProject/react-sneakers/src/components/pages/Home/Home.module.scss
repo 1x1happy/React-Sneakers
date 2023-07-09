@@ -1,0 +1,27 @@
+.content{
+  padding: 40px;
+  h1{
+    margin: 0;
+  }
+}
+.cardList{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto auto;
+}
+.searchBlock{
+  border: 1px solid #F3F3F3;
+  border-radius: 10px;
+  padding: 0 13px;
+
+  input{
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+
+    width: 200px;
+  }
+}

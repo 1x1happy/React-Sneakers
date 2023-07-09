@@ -1,0 +1,19 @@
+.Loading{
+  border: 1px solid #f2f2f2;
+  padding: 30px;
+  width: 210px;
+
+  border-radius: 40px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+  &:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.05);
+  }
+  .favorite{
+    position: absolute;
+    cursor: pointer;
+  }
+}

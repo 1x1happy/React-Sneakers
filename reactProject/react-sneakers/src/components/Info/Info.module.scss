@@ -1,0 +1,39 @@
+h3,p{
+  margin: 0;
+}
+.backCartBtn{
+  cursor: pointer;
+  width: 245px;
+  height: 55px;
+  background: #9DD558;
+  border-radius: 18px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFFFFF;
+  transition: background 0.2s ease-in-out;
+
+  max-width: 285px;
+}
+.backCartBtn{
+  position: relative;
+
+  &:hover{
+    img {
+      transform: translateX(-5px);
+    }
+  }
+  img{
+    position: relative;
+    right: 20px;
+    top: 1px;
+    transition: transform 0.15s ease-in-out;
+  }
+}
+.textDescription{
+  text-align: center;
+  color: #000000;
+  opacity: 0.6;
+  line-height: 24px;
+  padding-bottom: 30px;
+}
